@@ -39,7 +39,7 @@ const enlaces = document.getElementsByTagName('a');
 
 const boton = document.createElement("input");
 boton.setAttribute("type", "checkbox");
-[...boton].forEach(botons => boton.style.backgroundColor='grey');
+[...boton].forEach(botons => botons.style.backgroundColor='grey');
 
 
 

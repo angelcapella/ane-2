@@ -37,6 +37,11 @@ const enlaces = document.getElementsByTagName('a');
 
 //5
 
-const boton = document.createElement(input, [checkbox]);
+const boton = document.createElement("input");
+boton.setAttribute("type", "checkbox");
+[...boton].forEach(botons => boton.style.backgroundColor='grey');
+
+
+
 
 });
